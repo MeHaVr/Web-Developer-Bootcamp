@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/tacos">
+        <p><label for="username">Enter a username</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p><label for="password">Enter a password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p><label for="color">Enter a color</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p> <label for="time">Enter a time</label>
+            <input type="time" id="time" name="time">
+        </p>
+        <p>
+            <label for="number">Enter a number</label>
+            <input type="number" placeholder="number" id="number" name="number">
+        </p>
+        <p>
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+    </form>
+
+    <hr>
+    <h2>Hijacking Searches</h2>
+
+    <h3>Youtube Search</h2>
+        <form action=" https://www.youtube.com/results">
+            <input type="text" name="search_query" placeholder="Waht do you want to search?">
+            <button>Search</button>
+        </form>
+        <h3>Google Search</h2>
+            <form action="https://www.google.com/search">
+                <input type="text" name="q" placeholder="Waht do you want to search?">
+                <button>Search</button>
+            </form>
+            <hr>
+
+            <h2>More Inputs</h2>
+            <form action="/birds">
+                <p>
+                    <input type="checkbox" name="agree_tos" id="agree" checked>
+                    <label for="agree">I agree to everything</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="No" id="not_agree">
+                    <label for="not_agree">Im not agree to the tos</label>
+                </p>
+                <p>
+                <p>
+                    <label for="xs">Xs:</label>
+                    <input type="radio" name="size" id="xs" value="xs">
+                </p>
+                <p>
+                    <label for="s">S:</label>
+                    <input type="radio" name="size" id="s" value="s">
+                </p>
+                <p>
+                    <label for="m">M:</label>
+                    <input type="radio" name="size" id="m" value="m">
+                </p>
+                </p>
+
+                <p>
+                    <label for="meal">Please Select an Entree</label>
+                    <select name="meal" id="meal">
+                        <option value="fish" selected>Fish</option>
+                        <option value="steak">Steak</option>
+                        <option value="veg">Veags</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="Cheese">Amount of Cheese</label>
+                    <input type="range" name="Amount of Cheese" id="Cheese" min="1" max="100" step="7">
+                </p>
+                <p>
+                    <label for="text">Any Special Requests?</label>
+                    <br>
+                    <textarea name="Text" id="text" cols="30" rows="5" placeholder="OMG typ Please"></textarea>
+
+                </p>
+                <button>Submit</button>
+            </form>
+            <h2>Validations Demo</h2>
+            <form action="/dummy">
+                <label for="first">Enter First Name</label>
+                <input type="text" name="first" id="first">
+                <p>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" minlength="3" maxlength="20" required>
+                </p>
+                <p>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <button>Submit</button>
+
+
+            </form>
+</body>
+
+</html>
