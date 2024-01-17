@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline wavy blue;
+    letter-spacing: 8px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif    ;
+
+}
+
+p {
+    font-weight: bold;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
