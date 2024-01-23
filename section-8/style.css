@@ -1,0 +1,30 @@
+div {
+    width: 200px;
+
+}
+h1 {
+    width: 100px;
+    background-color: violet;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#one {
+    background-color: #e4c1f9;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid; 
+    margin: 20px;}
+#two {
+    background-color: #a9def9;
+    border-style: dashed;
+    border-left-width: 9px ;
+}
+#tree {
+    background-color: #d0f4de;
+    border: 10px solid black;
+}
+button { 
+    padding: 10px 5px 10px 5px;
+}

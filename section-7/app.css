@@ -2,10 +2,6 @@
     color: white;
     background-color: midnightblue
     ;*/
-*::selection {
-    background-color: black;
-    color: white;
-}
 body {
     background-color: #e0e1dd;
 }
@@ -13,55 +9,5 @@ button {
     font-size: 20px;
     background-color: #778da9;
 }
-h1, h2 {
-    color: #000000;}
-
-#signup {
-    background-color: #4cc9f0;
-    color: white;
-    text-decoration-line: underline;
-}
-h2 + button {
-    font-size: 25px;
-}
-input + button {
-    background-color: #4361EE;
-}
-span {
-    color: #4361EE;
-}
-.tag {
-    color: #7209B7;
-    background-color: #4CC9F0;
-}
-a {
-    color: #3A0CA3;
-}
-.post a {
-    color: #4361EE;
-    font-weight: 600; 
-}
-
-input[type="password"] {
-    color: #4361EE;
-}
-.post button:hover {
-    background-color: #7209B7;
-    color: white;
-}
-.post button:active {
-    background-color: red;
-}
-.post {
-    background-color: grey;
-}
-.post:nth-of-type(4n) {
-    background-color: #e0e1dd;
-}
-h2::first-letter {
-    font-size: 150%;
-}
-
-p::first-line { 
-    color: #4CC9F0;
-}
+h1,h2 {
+    color: darkgoldenrod;}
