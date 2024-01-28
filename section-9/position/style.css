@@ -1,0 +1,33 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 3px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+#middel-div {
+    background-color: #4cc700;
+
+    
+}
+#static #middel-div {
+    position: static;
+}
+
+#relative #middel-div {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute #middel-div {
+    position: absolute;
+    top: 50px;
+}
+
+#fixed #middel-div {
+    position: fixed;
+    top: 60px;
+    left: 500px;
+}

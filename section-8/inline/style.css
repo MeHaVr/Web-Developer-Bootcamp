@@ -1,11 +1,17 @@
 h1 {
     background-color: palegoldenrod;
     border: 1px solid black;
-    display: inline;
 }
 
 span {
     background-color: aqua;
     border: 1px solid black;
-    wig
+}
+div {
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    background-color: olive;
+    margin: 20px;
+    display: inline-block;
 }
